@@ -31,3 +31,13 @@ Proyecto de estación meteorológica local que lee datos ambientales mediante se
    * Instala Flask: `pip install flask`
    * Ejecuta el backend: `python app.py`
    * Abre en tu navegador: `http://localhost:5000`
+
+
+## 🤝 ¡El código es para Todos! (Contribuciones y Uso)
+
+Este es un proyecto totalmente abierto. Si tienes ideas para mejorarlo, quieres agregarle nuevas funciones (¡como más sensores o gráficos avanzados!), optimizar el código del Wemos o simplemente adaptarlo para tu propia casa:
+
+* **¡Eres libre de tomarlo, modificarlo y compartirlo!** 🚀
+* Si encuentras un fallo o quieres proponer una mejora en el diseño web, siéntete libre de abrir un *Issue* o enviar un *Pull Request*. 
+
+¡Aprender comunidad es mucho más divertido! Si te sirvió el proyecto, no olvides dejarle una ⭐ en GitHub.
