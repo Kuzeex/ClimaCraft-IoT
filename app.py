@@ -45,7 +45,7 @@ def recibir_datos():
         "time":    datetime.now().strftime("%H:%M"),
         "temp":    round(temp, 1),
         "presion": round(presion, 1),
-        "humedad": round(humedad, 1), # <-- Nuevo
+        "humedad": round(humedad, 1),
         "ok":      temp < 30
     })
     if len(historial) > 50:
