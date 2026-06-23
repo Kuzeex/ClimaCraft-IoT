@@ -1,4 +1,3 @@
-git add .// ── Wemos D1 Mini · BMP280 + HTU2X (I2C) → Servidor Flask ──────────
 // Librerías requeridas:
 //   - Adafruit BMP280 Library
 //   - Adafruit HTU21DF Library  (by Adafruit)
