@@ -14,7 +14,7 @@ Proyecto de estación meteorológica local que lee datos ambientales mediante se
 * **SDA / DA** ➔ Pin D2 (GPIO4)
 
 ## 🖥️ Arquitectura del Software
-1. **Wemos D1 Mini (`/wemos_codigo`):** Código en C++ que inicializa los sensores por I2C, se conecta a la red WiFi local y envía un objeto JSON vía HTTP POST cada 10 segundos.
+1. **Wemos D1 Mini (`/wemos_clima`):** Código en C++ que inicializa los sensores por I2C, se conecta a la red WiFi local y envía un objeto JSON vía HTTP POST cada 10 segundos.
 2. **Servidor Backend (`app.py`):** API REST desarrollada en Flask que procesa los datos entrantes del microcontrolador y los almacena temporalmente en memoria (con un historial de las últimas lecturas).
 3. **Dashboard Web (`clima_dashboard.html`):** Interfaz frontend moderna y responsive. Consume las APIs de Flask de forma asíncrona (`fetch`) y genera gráficas de tendencia usando SVG nativo.
 
